@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+}
+
+.container1{
+     box-shadow: 50px blue;
+     width:250px;
+     height: fit-content;
+    background-color:black;
+    color: white;
+    border:7px white;
+    box-shadow: 6px 6px 12px  rgb(248, 246, 248);
+    border-radius: 18px;
+}
+.container1:hover{
+   box-shadow:  6px 6px  12px purple;
+} 
+.pho{
+      width:130px;
+      border-radius: 30px;
+    
+}
+.head{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    
+    
+}
+.tab1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.wr1{
+     
+}
+.tab2{
+    text-decoration: none;
+    color: yellow;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+.tab2:hover{
+    color: blue;
+    
+}
+.intro{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+.container2{
+    width: 750px;
+    display: flex;
+    color: white;
+    background-color:black;
+    margin-left: 30px;
+
+}
+.container3{
+  width: 800px;
+  background-color:black;
+  color:white;
+  height: 800px;
+  border:10px white;
+  box-shadow: 6px 6px 12px yellow;
+  
+} 
+.final{
+    display: flex;
+    justify-content: space-between;
+    background-color:black
+
+
+    
+
+}
+.container5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+
+}
+.container4{
+    box-shadow: 6px 6px 12px white;
+    border: 10px white;
+    width:350px;
+    margin-top: 50px;
+    margin-left:30px;
+    margin-bottom: 20px;
+}
+.container4:hover{
+    box-shadow:6px 6px 12px rgb(12, 93, 216);
+}
+.set{
+    margin-left: 30px;
+}
