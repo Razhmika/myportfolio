@@ -11,9 +11,12 @@
     border:7px white;
     box-shadow: 6px 6px 12px  rgb(248, 246, 248);
     border-radius: 18px;
+    margin-left: 50px;
+    position:sticky;
+    top:30px;
 }
 .container1:hover{
-   box-shadow:  6px 6px  12px purple;
+   box-shadow:  6px 6px 12px purple;
 } 
 .pho{
       width:130px;
@@ -65,16 +68,15 @@
   height: 800px;
   border:10px white;
   box-shadow: 6px 6px 12px yellow;
+  position: relative;
+  
+
   
 } 
 .final{
     display: flex;
     justify-content: space-between;
     background-color:black
-
-
-    
-
 }
 .container5{
     display: grid;
@@ -95,4 +97,20 @@
 }
 .set{
     margin-left: 30px;
+    font-weight: bold;
+}
+.aling{
+    margin-left: 30px;
+
+}
+.aling2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    width:400px;
+    height:30px;
+    text-decoration:wavy;
+    color: blue;
+    border:4px double purple;
 }
